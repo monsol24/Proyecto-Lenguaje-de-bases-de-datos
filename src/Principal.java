@@ -5,7 +5,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 //Importar Clases y Funciones
-import Credenciales.Credenciales;
+import Credenciales.IniciarSesion;
 
 /**
  *
@@ -18,10 +18,9 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Declarar Instancias
-        Credenciales usuario = new Credenciales();
+        IniciarSesion usuario = new IniciarSesion();
         
-        usuario.setVisible(true);//que se muestre o ejecute el formulario
+        usuario.setVisible(true);//que se muestre la pantalla principal
         usuario.setLocationRelativeTo(null);//colocar el frame al centro de la pantalla
 
     }
